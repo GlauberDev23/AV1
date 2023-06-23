@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+.container1{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 5500px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header{
+    font-family:'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #EBEBEB;
+}
+.menu{
+    display: flex;
+    gap: 22px;
+    margin: 20px 25px;
+}
+.menuItem{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 20px 25px;
+    height: 30px;
+}
+.lupa{
+    position: absolute;
+    left: 100px;
+    top: 28px;
+}
+.seta{
+    position: relative;
+    top: 6px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+input{
+    background-color: #fafafa;
+    position: absolute;
+    left: 90px;
+    margin-top: 20px;
+    width: 150px;
+    height: 37px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 45px;
+}
+.btn{
+    background-color: #1daa18;
+    color: #ffffff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #036400;
+}
+.materia{
+    font-family: 'Source Serif 4', serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 800px;
+    width: 100%;
+    height: 300px;
+    margin: 10% auto;
+    position: relative;
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 20px;
+}
+.titulo{
+    font-family:'Inter', sans-serif;
+    color: #292929;
+    font-size: 19px;
+    position: relative;
+    top: 26px;
+}
+.titulo:hover{
+    color: #0040ff;
+}
+.subtitulo{
+    font-family: 'Source Serif 4', serif;
+    font-size: 16px;
+    color: #292929;
+    line-height: 26px;
+}   
+.elementos1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 24px;
+}
+.elementos2{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.elementos3{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.fotoBrasil{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -15px;
+}
+.salvar{
+    position: relative;
+    left: 250px;
+}
+.foto{
+    height: 34px;
+}
+.medium{
+    font-family:'Inter', sans-serif;
+    background-color: #F2F2F2;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
+.murillo{
+    font-family:'Inter', sans-serif;
+    color: #000000;
+    font-size: 16px;
+}
+.in{
+    color: #757575;
+}
+.julho{
+    color: #757575;
+}
+.minuto{
+    font-family:'Inter', sans-serif;
+    color: #757575;
+    font-size: 14px;
+}
+
+/*---------------------------------------------------*/
+
+.container2{
+    background: white;
+    width: 100%;
+    max-width: 5500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.titulo2{
+    font-family:'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 60px;
+}
+.elementos4{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -124px;
+}
+.foto2{
+    height: 40px;
+}
+.fotoMenor{
+    position: relative;
+    left: -10px;
+    top: 5px;
+}
+.murillo2{
+    line-height: 22px;
+}
+.likes{
+    font-family: 'Inter', sans-serif;
+    color: #757575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 520px;
+    max-width: 800px;
+    width: 650px;
+    margin: auto;
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 18px;
+    position: relative;
+    top: 18px;
+}
+.likes2{
+    display: flex;
+    align-items: center;
+    gap: 3.5px;
+}
+.salvar2{
+    position: relative;
+    left: -50px;
+}
+.salvarcaixa{
+    display: flex;
+    align-items: center;
+}
+.follow{
+    color: #1A8917;
+}
+.publicado{
+    color: #757575;
+}
+.ler{
+    color: #757575;
+}
+.corletras1{
+    color: #000000;
+}
+.brasil2{
+    display: flex;
+    justify-content: center;
+    margin-left: 31.5%;
+}
+.paragrafos{
+    font-family: 'Source Serif 4', serif;
+    color: #292929;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 6px;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 28px;
+}
+.linkspag2{
+    text-decoration: underline;
+}
+.amor{
+    background-color: #E8F3E8;
+}
+.baloespag2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 48px;
+    gap: 12px;
+}
+.palavra1{
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+    padding: 8px 20px;
+    border-radius: 22px;
+    font-size: 14px;
+}
+.palavra2{
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 22px;
+}
+.palavra3{
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 22px;
+}
+.palavra4{
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 22px;
+}
+.palavra5{
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 22px;
+}
+.likes3{
+    font-family: 'Inter', sans-serif;
+    color: #757575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 520px;
+}
+.likes4{
+    display: flex;
+    align-items: center;
+    gap: 3.5px;
+}
+.salvar3{
+    position: relative;
+    right: 20px;
+}
+.salvarcaixa2{
+    position: relative;
+    top: 10px ;
+}
